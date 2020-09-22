@@ -1,0 +1,34 @@
+----------------ComTalk Log File----------------
+ 
+SESSION STARTS - 2/23/04 4:27:56 PM
+Character Spoke "\pau=1\" (04:27 PM)
+Character Action "Greet" (04:27 PM)
+Character Spoke "Good Afternoon, User" (04:27 PM)
+Character Action "restpose" (04:27 PM)
+Idling (04:28 PM)
+Character Action "VoiceA" (04:28 PM)
+ 
+ 
+SESSION STARTS - 23/02/2004 04:28 PM
+Character Spoke "\pau=1\" (04:28 PM)
+Character Action "Greet" (04:28 PM)
+Character Spoke "Good Afternoon, User" (04:28 PM)
+Character Action "restpose" (04:28 PM)
+Character Action "restpose" (04:29 PM)
+ 
+ 
+SESSION STARTS - 23/02/2004 04:29 PM
+Character Spoke "\pau=1\" (04:29 PM)
+Character Action "Greet" (04:29 PM)
+Character Spoke "Good Afternoon, User" (04:29 PM)
+Character Action "restpose" (04:29 PM)
+Character Action "Close" (04:29 PM)
+SESSION ENDS - 23/02/2004 04:29 PM
+ 
+ 
+SESSION STARTS - 23/02/2004 04:29 PM
+Character Spoke "\pau=1\" (04:29 PM)
+Character Action "Greet" (04:29 PM)
+Character Spoke "Good Afternoon, User" (04:29 PM)
+Character Action "restpose" (04:29 PM)
+Character Action "VoiceA" (04:29 PM)

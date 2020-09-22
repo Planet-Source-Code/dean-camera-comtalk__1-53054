@@ -1,0 +1,336 @@
+[Root]
+Most Recent Package=ComTalk
+
+
+[Package|ComTalk Install|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Dean\Visual Basic\Agent\Package
+
+[Package|ComTalk Install|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ComTalk Install|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ComTalk Install|Files Found]
+
+[Package|ComTalk Install|Files Released]
+Settings.ini=
+
+[Package|ComTalk Install|Missing Dependency Information]
+C:\WINDOWS\MSAGENT\AGENTCTL.DLL=
+C:\Dean\Visual Basic\Agent\ComTalkDependencieInstall.exe=
+C:\WINDOWS\SYSTEM\AGENTCTL.DLL=
+
+[Package|ComTalk Install|Out-of-Date Dependency Information]
+
+[Package|ComTalk Install|Files Added]
+c:\dean\visual basic\agent\comtalkdependencieinstall.exe=
+c:\dean\comtalkreadme.txt=
+
+[Package|ComTalk Install|Files Removed]
+
+[Package|ComTalk Install|Files In Project]
+C:\Dean\Visual Basic\Agent\ComTalk.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Dean\Visual Basic\Agent\ComTalkDependencieInstall.exe=Yes
+C:\Dean\ComTalkReadMe.txt=Yes
+C:\WINDOWS\MSAGENT\AGENTCTL.DLL=Yes
+
+[Package|ComTalk Install|Configure Registry Files]
+Applicable=No
+
+[Package|ComTalk Install|Configure Remote Servers]
+Applicable=No
+
+[Package|ComTalk Install|Install Locations]
+C:\Dean\Visual Basic\Agent\ComTalk.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\MSAGENT\AGENTCTL.DLL=$(WinSysPath)
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Dean\Visual Basic\Agent\ComTalkDependencieInstall.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\AGENTCTL.DLL=$(WinSysPath)
+C:\Dean\ComTalkReadMe.txt=$(AppPath)
+C:\Dean\Visual Basic\Agent\Settings.ini=$(AppPath)
+
+[Package|ComTalk Install|Configure Shared Files]
+Applicable=Yes
+C:\Dean\Visual Basic\Agent\ComTalk.exe=No
+C:\Dean\Visual Basic\Agent\ComTalkDependencieInstall.exe=No
+C:\Dean\ComTalkReadMe.txt=No
+C:\Dean\Visual Basic\Agent\Settings.ini=No
+
+[Package|ComTalk Install|Distribution]
+Type=single
+Size=1.44 MB
+Title=ComTalk Installation
+
+[Package|ComTalk Install|Package]
+PackageFolder=C:\Dean\Visual Basic\Agent\Package
+ProjectFolder=C:\Dean\Visual Basic\Agent
+ServerSideCab=
+File1=C:\Dean\Visual Basic\Agent\Package\setup.exe
+File2=C:\Dean\Visual Basic\Agent\Package\Setup.Lst
+File3=C:\Dean\Visual Basic\Agent\Package\ComTalk.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|ComTalk Install|IconGroups]
+Group0=ComTalk
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|ComTalk Install|ComTalk]
+Icon1=ComTalk.exe
+Title1=ComTalk
+StartIn1=$(AppPath)
+Key1=Icon3
+Icon2=ComTalkDependencieInstall.exe
+Title2=Dependency Installer
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=ComTalkReadMe.txt
+Title3=Read Me
+StartIn3=$(AppPath)
+Key3=Icon5
+
+
+[Package|ComTalk|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Dean\temp\ComTalk Package
+
+[Package|ComTalk|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ComTalk|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ComTalk|Files Found]
+ComTalkMicCheck.exe=C:\Dean\ComTalk\Resource\Utilities\ComTalkMicCheck.exe
+
+[Package|ComTalk|Files Released]
+comtalkdependencyinstall.exe=
+
+[Package|ComTalk|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\AGENTCTL.DLL=
+C:\Dean\ComTalk\ComTalkDependencyInstall.exe=
+C:\Dean\ComTalk\ComTalkRepair.exe=
+C:\Dean\ComTalk\ComTalkMicCheck.exe=
+C:\Dean\Visual Basic\Mscomctl.ocx=
+C:\Dean\ComTalk\Agent Control Panel.exe=
+C:\Dean\ComTalk\ComTalkCharacterChecker.exe=
+C:\Dean\ComTalk\Input Software.exe=
+C:\Dean\ComTalk\MSagent.exe=
+C:\Dean\ComTalk\Output Software.exe=
+C:\Dean\ComTalk\VB 6.0 Runtime Files.exe=
+C:\Dean\ComTalk\Resource\Utilities\ComTalkMicCheck.exe=
+C:\Dean\ComTalk\Resource\Utilities\ComTalkRepair.exe=
+C:\Dean\ComTalk\Resource\Utilities\ComTalkCharacterChecker.exe=
+C:\Dean\ComTalk\Resource\Install\Agent Control Panel.exe=
+C:\Dean\ComTalk\Resource\Install\Input Software.exe=
+C:\Dean\ComTalk\Resource\Install\Merlin.exe=
+C:\Dean\ComTalk\Resource\Install\MSagent.exe=
+C:\Dean\ComTalk\Resource\Install\Output Software.exe=
+C:\Dean\ComTalk\Resource\Install\Peedy.exe=
+C:\Dean\ComTalk\Resource\Install\Robby.exe=
+C:\Dean\ComTalk\Resource\Install\VB 6.0 Runtime Files.exe=
+
+[Package|ComTalk|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+
+[Package|ComTalk|Files Added]
+comtalkrepair.exe=
+c:\dean\comtalk\comtalk.acs=
+c:\dean\comtalk\comtalkreadme.txt=
+comtalkmiccheck.exe=
+c:\dean\visual basic\mscomctl.ocx=
+c:\windows\system\comdlg32.dep=
+c:\windows\system\comdlg32.dll=
+c:\windows\system\comdlg32.ocx=
+c:\windows\system\comdlg32.oca=
+c:\dean\comtalk\agent control panel.exe=
+c:\dean\comtalk\comtalkcharacterchecker.exe=
+c:\dean\comtalk\input software.exe=
+c:\dean\comtalk\msagent.exe=
+c:\dean\comtalk\output software.exe=
+c:\dean\comtalk\vb 6.0 runtime files.exe=
+C:\Dean\ComTalk\Resource\Utilities\ComTalkCharacterChecker.exe=
+C:\Dean\ComTalk\Resource\Install\Agent Control Panel.exe=
+C:\Dean\ComTalk\Resource\Install\Input Software.exe=
+C:\Dean\ComTalk\Resource\Install\Merlin.exe=
+C:\Dean\ComTalk\Resource\Install\MSagent.exe=
+C:\Dean\ComTalk\Resource\Install\Output Software.exe=
+C:\Dean\ComTalk\Resource\Install\Peedy.exe=
+C:\Dean\ComTalk\Resource\Install\Robby.exe=
+C:\Dean\ComTalk\Resource\Install\VB 6.0 Runtime Files.exe=
+C:\Dean\ComTalk\En-Tech Website.url=
+
+[Package|ComTalk|Files Removed]
+c:\windows\system\comdlg32.dep=
+c:\dean\comtalk\vb 6.0 runtime files.exe=
+
+[Package|ComTalk|Files In Project]
+C:\Dean\ComTalk\ComTalk.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\AGENTCTL.DLL=Yes
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Dean\ComTalk\ComTalk.acs=Yes
+C:\Dean\ComTalk\ComTalkReadMe.txt=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\Dean\ComTalk\Resource\Utilities\ComTalkRepair.exe=Yes
+C:\Dean\ComTalk\Resource\Utilities\ComTalkMicCheck.exe=Yes
+C:\Dean\ComTalk\Resource\Utilities\ComTalkCharacterChecker.exe=Yes
+C:\Dean\ComTalk\Resource\Install\Agent Control Panel.exe=Yes
+C:\Dean\ComTalk\Resource\Install\Input Software.exe=Yes
+C:\Dean\ComTalk\Resource\Install\Merlin.exe=Yes
+C:\Dean\ComTalk\Resource\Install\MSagent.exe=Yes
+C:\Dean\ComTalk\Resource\Install\Output Software.exe=Yes
+C:\Dean\ComTalk\Resource\Install\Peedy.exe=Yes
+C:\Dean\ComTalk\Resource\Install\Robby.exe=Yes
+C:\Dean\ComTalk\Resource\Install\VB 6.0 Runtime Files.exe=Yes
+C:\Dean\ComTalk\En-Tech Website.url=Yes
+
+[Package|ComTalk|Configure Registry Files]
+Applicable=No
+
+[Package|ComTalk|Configure Remote Servers]
+Applicable=No
+
+[Package|ComTalk|Install Locations]
+C:\Dean\ComTalk\ComTalk.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\AGENTCTL.DLL=$(WinSysPath)
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Dean\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Dean\ComTalk\ComTalkDependencyInstall.exe=$(AppPath)
+C:\Dean\ComTalk\ComTalkRepair.exe=$(AppPath)
+C:\Dean\ComTalk\ComTalk.acs=$(AppPath)
+C:\Dean\ComTalk\ComTalkReadMe.txt=$(AppPath)
+C:\Dean\ComTalk\ComTalkMicCheck.exe=$(AppPath)
+C:\Dean\Visual Basic\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.oca=$(WinSysPath)
+C:\Dean\ComTalk\Agent Control Panel.exe=$(AppPath)
+C:\Dean\ComTalk\ComTalkCharacterChecker.exe=$(AppPath)
+C:\Dean\ComTalk\Input Software.exe=$(AppPath)
+C:\Dean\ComTalk\MSagent.exe=$(AppPath)
+C:\Dean\ComTalk\Output Software.exe=$(AppPath)
+C:\Dean\ComTalk\VB 6.0 Runtime Files.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\Dean\ComTalk\Resource\Utilities\ComTalkRepair.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Utilities\ComTalkMicCheck.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Utilities\ComTalkCharacterChecker.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Install\Agent Control Panel.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Install\Input Software.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Install\Merlin.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Install\MSagent.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Install\Output Software.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Install\Peedy.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Install\Robby.exe=$(AppPath)
+C:\Dean\ComTalk\Resource\Install\VB 6.0 Runtime Files.exe=$(AppPath)
+C:\Dean\ComTalk\En-Tech Website.url=$(AppPath)
+
+[Package|ComTalk|Configure Shared Files]
+Applicable=Yes
+C:\Dean\ComTalk\ComTalk.exe=No
+C:\Dean\ComTalk\ComTalkDependencyInstall.exe=No
+C:\Dean\ComTalk\ComTalkRepair.exe=No
+C:\Dean\ComTalk\ComTalk.acs=No
+C:\Dean\ComTalk\ComTalkReadMe.txt=No
+C:\Dean\ComTalk\ComTalkMicCheck.exe=No
+C:\Dean\ComTalk\Agent Control Panel.exe=No
+C:\Dean\ComTalk\ComTalkCharacterChecker.exe=No
+C:\Dean\ComTalk\Input Software.exe=No
+C:\Dean\ComTalk\MSagent.exe=No
+C:\Dean\ComTalk\Output Software.exe=No
+C:\Dean\ComTalk\VB 6.0 Runtime Files.exe=No
+C:\Dean\ComTalk\Resource\Utilities\ComTalkRepair.exe=No
+C:\Dean\ComTalk\Resource\Utilities\ComTalkMicCheck.exe=No
+C:\Dean\ComTalk\Resource\Utilities\ComTalkCharacterChecker.exe=No
+C:\Dean\ComTalk\Resource\Install\Agent Control Panel.exe=No
+C:\Dean\ComTalk\Resource\Install\Input Software.exe=No
+C:\Dean\ComTalk\Resource\Install\Merlin.exe=No
+C:\Dean\ComTalk\Resource\Install\MSagent.exe=No
+C:\Dean\ComTalk\Resource\Install\Output Software.exe=No
+C:\Dean\ComTalk\Resource\Install\Peedy.exe=No
+C:\Dean\ComTalk\Resource\Install\Robby.exe=No
+C:\Dean\ComTalk\Resource\Install\VB 6.0 Runtime Files.exe=No
+C:\Dean\ComTalk\En-Tech Website.url=No
+
+[Package|ComTalk|Distribution]
+Type=single
+Size=
+Title=ComTalk
+
+[Package|ComTalk|IconGroups]
+Group0=ComTalk
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|ComTalk|ComTalk]
+Icon1=ComTalk.exe
+Title1=ComTalk
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ComTalkRepair.exe
+Title2=ComTalk Repair
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=ComTalkReadMe.txt
+Title3=ComTalk ReadMe
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4=ComTalkMicCheck.exe
+Title4=ComTalk Mic Check
+StartIn4=$(AppPath)
+Key4=Icon6
+Icon5=ComTalkCharacterChecker.exe
+Title5=ComTalk Character Checker
+StartIn5=$(AppPath)
+Key5=Icon13
+
+[Package|ComTalk|Package]
+PackageFolder=C:\Dean\temp\ComTalk Package
+ProjectFolder=C:\Dean\Visual Basic\Agent
+ServerSideCab=
+File1=C:\Dean\temp\ComTalk Package\setup.exe
+File2=C:\Dean\temp\ComTalk Package\Setup.Lst
+File3=C:\Dean\temp\ComTalk Package\ComTalk.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
