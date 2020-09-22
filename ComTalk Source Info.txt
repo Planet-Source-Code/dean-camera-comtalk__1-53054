@@ -1,0 +1,19 @@
+Extra ComTalk Information:
+--------------------------
+
+ComTalk is packed as an .exe by a program called UPX, a freeware program avaliable off the
+Internet. This program can compress any .exe or .dll file to a fraction of it's original
+size, while still retaining it's .exe and .dll extention - the file still works normally in
+its compressed state. UPX is used to compress the ComTalk.exe file from hundreds of kb to
+under 300kb.
+
+ComTalk MUST be run outside of VB as an ActiveX EXE for plugins to work correctly. If you
+have change ComTalk to a Standard EXE, the "CTLink" class module's instancing property must
+be set as "6 - GlobalMultiUse".
+
+Although ComTalk is not reccomended to be run inside VB, it can be done so long as all
+are disabled (open all plugin .exe files and select "Don't use in ComTalk". When run in VB,
+ComTalk will output Debug information into the Immediate window.
+
+WARNING: ComTalk uses subclassing (hooks to system functions.) Using the "stop" button while
+	 ComTalk is running inside VB can case VB to crash. Use the "Exit" command ONLY.
